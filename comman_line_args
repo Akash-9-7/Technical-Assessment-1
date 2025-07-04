@@ -11,5 +11,6 @@ public class command_line {
 		System.out.print("Enter name2:");
 		String name2=sc.next();
 		System.out.println(name1+" Technology "+name2);
+
 	}
 }
