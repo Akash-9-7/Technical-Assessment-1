@@ -1,0 +1,22 @@
+package Assessment;
+
+import java.util.Scanner;
+
+public class alphabetical_order {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Alphabet1 :");
+		char letter1=sc.next().charAt(0);
+		System.out.print("Enter Alphabet2 :");
+		char letter2=sc.next().charAt(0);
+		
+		if(letter1<letter2) {
+			System.out.println(letter1 + "," + letter2);
+		}
+		else {
+			System.out.println(letter2+ "," +letter1);
+		}
+	}
+
+}
